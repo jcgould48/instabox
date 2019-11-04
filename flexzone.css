@@ -3,12 +3,14 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    
   }
 
   .logoparagraph {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    
     
   }
 
@@ -17,7 +19,13 @@
       height:150px;
   }
 
-  
+  #IG{
+    
+  }
+
+  #check-mark{
+    order: <2>;
+  }
 
  body {
      background-color: #FAFAFA;
@@ -27,5 +35,7 @@
   ul {
       display: flex;
       justify-content: space-evenly;
-      flex-direction: column;;
+      
+      
+      
   }
