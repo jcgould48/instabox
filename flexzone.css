@@ -39,3 +39,43 @@
       
       
   }
+
+.first-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 75%;
+  
+}
+.ig-check{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+#check-mark{
+  height: 20px;
+}
+
+.follow-dot{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  
+}
+
+.row-two{
+  display: flex;
+  justify-content: flex-end;
+  width: 75%
+  
+  
+}
+
+.mainLogo{
+  display: flex;
+  width: 75%;
+  justify-content: center;
+  
+  
+}
