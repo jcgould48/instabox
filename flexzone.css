@@ -2,17 +2,31 @@
     
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    
+    justify-content: space-between;
+    text-align: center;
+  font-weight: bold;
   }
-
-  /* .logoparagraph {
+  
+  #main-div {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    
-    
-  } */
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #FAFAFA;
+    height: 500px;
+  
+}
+
+#text-rows {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  margin-left: 100px;
+  margin-right: 100px;
+  height: 300px;
+
+}
+
 
 
   #logo{
@@ -69,13 +83,9 @@
   
 }
 
- .mainLogo{
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
+ 
   
-  
-}
+
 .row-three {
   display: flex;
   align-items: center;
