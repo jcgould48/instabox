@@ -80,7 +80,7 @@
   display: flex;
   justify-content: center;
   /* align-items: center; */
-  
+  flex-direction: column;
   
   
   
@@ -97,9 +97,10 @@
 }
 
 #insta {
-  align-items: center;
+  /* align-items: center; */
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  flex-direction: column;
   
 }
 
@@ -117,7 +118,7 @@
 
 #dailyshow{
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   
 }
