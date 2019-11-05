@@ -6,76 +6,104 @@
     
   }
 
-  .logoparagraph {
+  /* .logoparagraph {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     
     
-  }
+  } */
 
 
   #logo{
       height:150px;
   }
 
-  #IG{
-    
-  }
-
-  #check-mark{
-    order: <2>;
-  }
+  
 
  body {
      background-color: #FAFAFA;
      
   }
-
+/* 
   ul {
       display: flex;
       justify-content: space-evenly;
       
       
       
-  }
+  } */
 
 .first-row{
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  width: 75%;
   
+  align-items: flex-end;
+  justify-content: center;
 }
-.ig-check{
+/* .ig-check{
   display: flex;
   flex-direction: row;
   justify-content: right;
-}
+} */
 
-#check-mark{
+/* #check-mark{
   height: 20px;
-}
+  justify-content: center;
+  align-items: center;
+} */
 
-.follow-dot{
+/* .follow-dot{
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   
-}
+} */
 
 .row-two{
   display: flex;
-  justify-content: flex-end;
-  width: 75%
+  justify-content: center;
+  align-items: center;
+  
+  
   
   
 }
 
-.mainLogo{
+ .mainLogo{
   display: flex;
-  width: 75%;
-  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
   
   
 }
+.row-three {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#insta {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  
+}
+
+#message-one{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lovely-message{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#dailyshow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
