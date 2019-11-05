@@ -48,11 +48,11 @@
       
   } */
 
-.first-row{
+#first-row{
   display: flex;
-  
-  align-items: flex-end;
-  justify-content: center;
+  flex-direction: row;
+ /* // align-items: center; */
+  justify-content: space-evenly;
 }
 /* .ig-check{
   display: flex;
@@ -73,10 +73,11 @@
   
 } */
 
-.row-two{
+#second-row{
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
+  
   
   
   
@@ -115,5 +116,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  
+}
+
+#number-info{
+  display: flex;
+  justify-content: space-evenly;
+  
+  
 }
 
